@@ -37,7 +37,7 @@ module.exports = function (api) {
       }
     ]
   ];
-  /*
+  
   const plugins= [
     [
       '@babel/plugin-transform-runtime', {
@@ -47,8 +47,13 @@ module.exports = function (api) {
       useESModules: false
     }
     ]
-  ];*/
-  
+  ];
+  /*
+	const plugins=[	  
+	'@babel/plugin-proposal-class-properties',
+	'@babel/plugin-transform-shorthand-properties'
+	];	*/  
+	/*
 const plugins=[
         '@babel/plugin-syntax-dynamic-import',
         [
@@ -61,7 +66,7 @@ const plugins=[
           }
         ]
       ];
-	  
+		*/			
   return {
     presets,
     plugins
