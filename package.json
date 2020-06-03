@@ -13,14 +13,13 @@
 		"file-loader": "^6.0.0",
 		"lerna": "^3.20.2",
 		"mini-css-extract-plugin": "^0.6.0",
-		"prettier": "1.19.1",
 		"serve": "^11.0.0",
 		"style-loader": "^0.23.1",
-		"svelte": "^3.0.0",
-		"svelte-loader": "2.13.3",
-		"webpack": "^4.30.0",
-		"webpack-cli": "^3.3.0",
-		"webpack-dev-server": "^3.3.1"
+		"svelte": "^3.23.0",
+		"svelte-loader": "^2.13.3",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11",
+		"webpack-dev-server": "^3.11.0"
 	},
 	"files": [
 		"src/components",
